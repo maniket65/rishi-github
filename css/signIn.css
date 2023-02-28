@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  nav a:first-child {
+    margin-left: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .sign-in-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .sign-in-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sign-in-container form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .sign-in-container form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .sign-in-container form input[type="submit"] {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .sign-in-container form input[type="submit"]:hover {
+    background-color: #069;
+  }
+  
+  .sign-up-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sign-up-link a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  .sign-up-link a:hover {
+    color: #069;
+  }
+  body{
+    background-color: royalblue;
+  }

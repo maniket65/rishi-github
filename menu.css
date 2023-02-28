@@ -1,0 +1,31 @@
+h1{
+    padding-top: 34px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(202, 235, 235);
+}
+#menu{
+    display:grid;
+    grid-template-columns: repeat(auto-fit , minmax(400px,1fr));
+    background-color: royalblue;
+}
+.items{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    margin-left: 125px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
